@@ -1,0 +1,22 @@
+project_structure/
+├── CMakeLists.txt
+├── main/
+│   ├── main.cpp
+│   ├── swarm_node.h
+│   ├── swarm_node.cpp
+│   ├── security_manager.h
+│   ├── security_manager.cpp
+│   ├── network_manager.h
+│   ├── network_manager.cpp
+│   └── ai_model_manager.h
+├── components/
+│   ├── crypto/
+│   │   ├── include/
+│   │   │   └── secure_primitives.h
+│   │   └── src/
+│   │       └── secure_primitives.cpp
+│   └── models/
+│       └── swarm_intelligence_model.tflite
+└── scripts/
+    ├── build.sh
+    └── flash.sh
